@@ -81,6 +81,9 @@ img {
 .hero-logo {
   position: relative;
   z-index: 1;
+  aspect-ratio: 90/43;
+  block-size: auto;
+  max-inline-size: 100%;
 }
 
 section.hero .container {
