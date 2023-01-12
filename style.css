@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2e2e2e;
+  text-align: left;
+  background-color: #fff;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+* {
+  font-family: Open Sans, sans-serif;
+}
+strong {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+/* @media (min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+} */
+.container {
+  max-width: 930px;
+  width: 100%;
+}
+img {
+  max-width: 100%;
+}
+.hero h2 {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 300;
+  color: #fff;
+  position: relative;
+  text-align: left;
+  margin: 1.5rem 0;
+}
+.hero-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 10% 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.hero {
+  position: relative;
+  padding: 64px 0;
+}
+
+.hero-logo {
+  position: relative;
+  z-index: 1;
+}
+
+section.hero .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.subscription {
+  padding: 67px 0;
+}
+.subscription-desc h2 {
+  color: #006fb9;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 0;
+}
+
+.subscription-desc .subtitle {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 300;
+  margin-top: 0px;
+}
+.subscription-desc p:not(.subtitle) {
+  color: #2e2e2e99;
+}
+/* .subscription-form{
+    border-radius: 32px;
+    background: #006FB9;
+    max-width: 100%;
+} */
+.subscription-desc {
+  margin-bottom: 67px;
+}
+.subscription-icons .item {
+  color: #006fb9;
+  flex-basis: 212px;
+  text-align: center;
+  width: 212px;
+  margin: auto;
+}
+.flex.subscription-icons {
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.product {
+  background-color: #dde6f7;
+  padding: 57px 0 50px;
+}
+
+.product-desc h2 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #006fb9;
+  margin-bottom: 32px;
+}
+.product-desc {
+  margin-bottom: 57px;
+}
+.product-features .item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+  margin-bottom: 18px;
+}
+
+.product-features .item p {
+  margin: 0;
+}
+.benefits {
+  color: #fff;
+  background-color: #023831;
+  padding: 57px 0;
+}
+.benefits-title h2 {
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  text-align: center;
+}
+.benefits-list {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.benefits-list ul {
+  margin: auto;
+  padding-left: 16px;
+}
+.benefits-list li span {
+  font-weight: 300;
+  opacity: 0.8;
+}
+.benefits-list li::marker {
+  font-size: 12px;
+}
+.subscription {
+  background-color: #f4f4f4;
+}
+.subscription h2 {
+  font-size: 1.25rem;
+  color: #000;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+.subscription-form span {
+  font-size: 36px;
+  font-weight: 300;
+  opacity: 0.9;
+}
+.subscription-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+.subscription-form input {
+  padding: 12px 23px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #d0d5db;
+}
+.subscription-form label {
+  color: #fff;
+  width: 100%;
+}
+input.button {
+  background-color: #33cc34;
+  padding: 18px 23px 14px;
+  color: #fff;
+  margin-top: 16px;
+  border-color: #33cc34;
+  font-size: 18px;
+  line-height: 18px;
+}
+input::placeholder {
+  color: #a1a2a4;
+}
+.has-gradiend {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background: linear-gradient(0deg, #8d702b 0%, #c8a75a 87.26%, #c8a75a 100%);
+  border-radius: 14px;
+  padding: 32px 0;
+}
+.has-gradiend p {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+}
+.has-gradiend h3 {
+  margin: 0;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+.logos {
+  text-align: center;
+}
+.logos > .container > .flex > img {
+  margin-bottom: 32px;
+}
+@media (min-width: 992px) {
+  .hero-banner {
+    object-position: center;
+  }
+  .logos {
+    text-align: left;
+  }
+  .logos > .container > .flex > img {
+    margin-bottom: 0px;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: nowrap;
+
+    gap: 45px;
+  }
+  .flex.subscription-icons {
+    flex-direction: row;
+    gap: 74px;
+  }
+  .subscription-icons .item {
+    margin: 0;
+  }
+  .col-left,
+  .col-right {
+    flex-basis: 50%;
+    width: 50%;
+  }
+  .subscription-desc {
+    margin-bottom: 0;
+  }
+  .subscription-form {
+    margin-left: auto;
+  }
+  .product-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .benefits .flex {
+    gap: 0;
+  }
+  .subscription-form input {
+    margin-left: 30px;
+  }
+  .subscription-form input {
+    width: 273px;
+  }
+  .subscription-form form {
+    padding-right: 30px;
+  }
+  .subscription-form label {
+    width: auto;
+  }
+  .has-gradiend p {
+    font-size: 2rem;
+  }
+  .has-gradiend h3 {
+    font-size: 2.75rem;
+  }
+  .benefits-title h2 {
+    font-size: 2.25rem;
+    line-height: 4rem;
+  }
+  .subscription h2 {
+    font-size: 1.75rem;
+  }
+}
