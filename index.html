@@ -17,11 +17,11 @@
     <section class="hero">
         <div class="container">
             <picture>
-                <source srcset="img/bg.webp" type="image/webp" />
-                <!-- <source srcset="img/bg-mobile.webp" type="image/webp" /> -->
+                <source srcset="img/bg.webp" type="image/webp" media="(min-width: 450px)" />
+                <source srcset="img/bg-mobile.webp" type="image/webp" />
                 <img class="hero-banner" src="img/bg.jpg"
                     srcset="img/bg-mobile.png 452w, img/bg-1440.png 1440w, img/bg.jpg 1920w"
-                    alt="banner z młotkiem sędziowskim" loading="eager" decoding="sync">
+                    alt="banner z młotkiem sędziowskim" loading="eager" decoding="sync" sizes="100vw">
             </picture>
 
             <div class="flex">
