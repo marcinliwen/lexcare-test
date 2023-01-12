@@ -5,14 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MELAG</title>
+    <title>LexCare</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="prefetch" href="img/bg.jpg" as="image">
 </head>
 
 <body>
+    <header style="background-color: #C8A75A; height: 68px;">
+        <div class="container"></div>
+    </header>
     <section class="hero">
         <div class="container">
-            <img class="hero-banner" src="img/bg.jpg" alt="banner z młotkiem sędziowskim">
+            <picture>
+                <source srcset="img/bg.webp" type="image/webp" />
+                <!-- <source srcset="img/bg-mobile.webp" type="image/webp" /> -->
+                <img class="hero-banner" src="img/bg.jpg"
+                    srcset="img/bg-mobile.png 452w, img/bg-1440.png 1440w, img/bg.jpg 1920w"
+                    alt="banner z młotkiem sędziowskim" loading="eager" decoding="sync">
+            </picture>
+
             <div class="flex">
                 <div class="col-left">
                     <h2>
@@ -42,8 +53,8 @@
         <div class="container">
             <h2><strong>Co otrzymujesz w ramach umowy:</strong></h2>
             <div class="flex">
-                <div class="col-left">
-                    <p style="margin:0 0 8px 0">
+                <div class="col-left max-line">
+                    <p style="margin:0 0 8px 0; ">
                         • Bieżące opracowanie wzorów dokumentów wymaganych przez organy, takie
                         jak
                         Państwowy
@@ -72,7 +83,7 @@
                         informacje możesz otrzymywać SMS-em lub na wskazany adres e-mail;
                     </p>
                 </div>
-                <div class="col-right">
+                <div class="col-right max-line">
                     <p style="margin:0 0 8px 0">• Możliwość skorzystania z indywidualnego doradztwa prawnego w drodze
                         osobistej lub zdalnej
                         konsultacji z zapewnieniem priorytetu;
