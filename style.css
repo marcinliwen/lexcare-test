@@ -58,7 +58,7 @@ img {
   color: #fff;
   position: relative;
   text-align: left;
-  margin: 1.5rem 0;
+  margin: 4rem 0 1.5rem 0;
 }
 .hero-banner {
   width: 100%;
@@ -245,6 +245,7 @@ input::placeholder {
   background: linear-gradient(0deg, #8d702b 0%, #c8a75a 87.26%, #c8a75a 100%);
   border-radius: 14px;
   padding: 32px 0;
+  margin-top: 48px;
 }
 .has-gradiend p {
   margin: 0;
